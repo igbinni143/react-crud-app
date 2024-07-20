@@ -1,5 +1,7 @@
 import { Component } from "react"
 import "./App.css"
+import ExpenseList from "./components/ExpenseList"
+import ExpenseForm from "./components/ExpenseForm"
 
 export default class App extends Component {
 	render() {
@@ -9,10 +11,12 @@ export default class App extends Component {
 					<h1>장바구니</h1>
 
 					<div style={{ width: `100%`, backgroundColor: "white", padding: "1rem" }}>
-						{/* {Expense Form} */}Expense Form
+						{/* {Expense Form} */}
+						<ExpenseForm />
 					</div>
 					<div style={{ width: `100%`, backgroundColor: "white", padding: "1rem" }}>
-						{/* {Expense List} */} Expense List
+						{/* {Expense List} */}
+						<ExpenseList />
 					</div>
 					<div style={{ display: "flex", justifyContent: "start", marginTop: "1rem" }}>
 						<p style={{ fontSize: "2rem" }}>총합계:</p>
