@@ -10,3 +10,24 @@
 	max-width: 1280px;
 	width: 90%;
 }
+.alert {
+	padding: 1rem;
+	margin: 1rem 0;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.alert-success {
+	background-color: #00992496;
+	border: none;
+	color: white;
+	animation: fadeOut 50ms forwards;
+}
+
+.alert-danger {
+	background-color: #ff00159f;
+	border: none;
+	color: white;
+	animation: fadeOut 100ms forwards;
+}
+
